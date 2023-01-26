@@ -1,7 +1,8 @@
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Prata", seri;
 }
 
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
 }
