@@ -5,11 +5,11 @@
   --secondary-font: "Inconsolata", monospace;
 }
 
-h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   font-family: var(--secondary-font);
   font-weight: 500;
 }
@@ -20,14 +20,14 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-family: var(--heading-font);
+  font-size: 62px;
+  line-height: 2;
 }
 
 p {
-  font-family: var(--secondary-font);
-  font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 img {
@@ -46,6 +46,7 @@ img {
 
 .hero h2 {
   font-size: 40px;
+  font-family: var(--secondary-font);
 }
 
 .hero p {
@@ -79,7 +80,7 @@ img {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .hero {
