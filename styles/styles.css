@@ -54,6 +54,24 @@ img {
   margin-bottom: 50px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 48px;
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+}
+
+.ilana-photo {
+  padding: 30px 60px;
+  border-radius: 20px;
+}
+
 .btn-brand {
   font-size: 20px;
   font-family: var(--secondary-font);
@@ -89,6 +107,11 @@ img {
 
   .hero h2 {
     font-size: 30px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 80px 20px;
   }
 
   .project-grid {
