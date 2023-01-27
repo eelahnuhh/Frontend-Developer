@@ -20,18 +20,32 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 64px;
 }
 
 p {
   font-family: var(--secondary-font);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+}
+
+img {
+  padding: 30px 90px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  width: 600px;
 }
 
 .hero {
   text-align: center;
   background: var(--primary-color);
   padding: 160px 20px;
+  line-height: 1.5;
+}
+
+.hero h2 {
+  font-size: 40px;
 }
 
 .hero p {
@@ -45,4 +59,42 @@ p {
   background: var(--secondary-color);
   color: white;
   padding: 10px 15px;
+}
+
+.btn-brand-outline {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 10px 15px;
+}
+
+.project-intro {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .project-grid {
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
 }
