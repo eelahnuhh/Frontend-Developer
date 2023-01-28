@@ -93,7 +93,7 @@ h2 a:hover {
 .hero {
   text-align: center;
   background: var(--primary-color);
-  padding: 160px 20px;
+  padding: 120px 20px;
   line-height: 1.5;
 }
 
@@ -108,7 +108,7 @@ h2 a:hover {
 }
 
 .content {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content h1 {
@@ -185,7 +185,6 @@ i:hover {
 
   .content {
     text-align: center;
-    padding: 80px 20px;
   }
 
   .project-grid {
