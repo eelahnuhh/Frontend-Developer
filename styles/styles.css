@@ -40,6 +40,10 @@ img {
   height: 600px;
 }
 
+a {
+  color: var(--secondary-color);
+}
+
 .hero {
   text-align: center;
   background: var(--primary-color);
