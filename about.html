@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Learn more about front-end developer, Ilana Smalls. See where she is from and the motivation behind learning to code and getting into web development."
+    />
+    <title>About Front-End Developer - Ilana Smalls</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +21,8 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="canonical" href="index.html" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -29,6 +34,29 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h2>
+          <a href="/" title="Homepgage"> [IS] </a>
+        </h2>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" class="active" title="About Ilana Smalls"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="Ilana's Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ilana Smalls">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content container">
       <div class="row">
         <div class="col-lg-6">
@@ -45,7 +73,12 @@
             keep coding and creating new things. There is always room for
             improvement. 💜
           </p>
-          <a href="#" class="btn btn-brand mb-4">See My Projects</a>
+          <a
+            href="/work.html"
+            class="btn btn-brand mb-4"
+            title="Ilana's Projects"
+            >See My Projects</a
+          >
         </div>
         <div class="col-lg-6">
           <img
@@ -56,5 +89,30 @@
         </div>
       </div>
     </div>
+    <footer class="mt-5">
+      <a href="mailto:ilanasmalls2002@gmail.com" title="Contact Ilana Smalls"
+        ><h2 class="text-center email-link">ilanasmalls2002@gmail.com</h2></a
+      >
+      <div class="d-flex justify-content-center">
+        <a
+          href="https://www.github.com/eelahnuhh"
+          target="_blank"
+          title="Ilana's GitHub Profile"
+          ><i class="fa-brands fa-github m-2"> </i>
+        </a>
+        <a
+          href="https://www.instagram.com/il.a.na"
+          target="_blank"
+          title="Ilana's Instagram Profile"
+          ><i class="fa-brands fa-instagram m-2"> </i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ilanasmalls/"
+          target="_blank"
+          title="Ilana's LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin m-2"> </i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
