@@ -53,11 +53,6 @@ nav {
   line-height: 80px;
 }
 
-nav h2 {
-  margin: 0;
-  font-size: 20px;
-  line-height: 80px;
-}
 nav li {
   display: inline;
   list-style: none;
@@ -71,8 +66,17 @@ nav a {
   color: black;
 }
 
-.active, nav a:hover {
+.active,
+nav a:hover {
   color: var(--secondary-color);
+}
+
+nav h2,
+h2 a:hover {
+  margin: 0;
+  font-size: 20px;
+  line-height: 80px;
+  color: black;
 }
 
 .hero {
