@@ -37,7 +37,16 @@ img {
   border-radius: 8px;
   background: var(--primary-color);
   width: 600px;
-  height: 600px;
+  height: auto;
+}
+
+.logos img {
+  margin: 2px;
+  padding: 10px;
+  width: 60px;
+  height: auto;
+  background: var(--primary-color);
+  border-radius: 40%;
 }
 
 a {
@@ -62,6 +71,7 @@ footer a {
 
 nav {
   line-height: 80px;
+  background: white;
 }
 
 nav li {
