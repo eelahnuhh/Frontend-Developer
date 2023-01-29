@@ -58,6 +58,13 @@ ul {
   margin: 0;
 }
 
+li {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 0 0 15px;
+}
+
 footer {
   background: var(--secondary-color);
   line-height: 1.5;
@@ -69,17 +76,27 @@ footer a {
   text-decoration: none;
 }
 
+i {
+  font-size: 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+i:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
 nav {
   line-height: 80px;
   background: white;
 }
 
 nav li {
-  display: inline;
-  list-style: none;
-  text-decoration: none;
   line-height: 40px;
-  margin: 0 0 0 15px;
 }
 
 nav a {
@@ -155,25 +172,24 @@ h2 a:hover {
   font-size: 20px;
 }
 
+.project-image {
+  transition: all 200ms ease-in-out;
+}
+
+.project-image:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
+
+.future-projects {
+  color: var(--secondary-color);
+}
+
 .email-link {
   margin: 0;
   text-decoration: none;
   color: black;
   font-size: 26px;
-}
-
-i {
-  font-size: 20px;
-  color: var(--primary-color);
-  background: var(--secondary-color);
-  padding: 10px;
-  border-radius: 50%;
-  transform: all 150ms ease-in-out;
-}
-
-i:hover {
-  color: var(--secondary-color);
-  background: var(--primary-color);
 }
 
 @media (max-width: 900px) {
