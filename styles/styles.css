@@ -9,7 +9,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+li {
   font-family: var(--secondary-font);
   font-weight: 500;
 }
@@ -183,6 +184,10 @@ h2 a:hover {
 
 .future-projects {
   color: var(--secondary-color);
+}
+
+.future-projects li {
+  font-family: var(--secondary-font);
 }
 
 .email-link {
